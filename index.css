@@ -24,6 +24,7 @@ the edges of the slides, but adequately spaced
     border-radius: 6px;
     
     
+    
 }
 
 .carousel .carousel-item,
@@ -33,6 +34,7 @@ the edges of the slides, but adequately spaced
 
 .carousel .carousel-item-visible {
     display: block;
+     animation: fadeVisibility 0.5s;
 }
 
 .carousel .carousel-item img {
@@ -70,4 +72,13 @@ the edges of the slides, but adequately spaced
 
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 20px;   
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
