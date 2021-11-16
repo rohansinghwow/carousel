@@ -1,14 +1,20 @@
 
-
+body{
+    background-color: #F1F2F4;
+}
 .carousel {
     max-width: 600px;
     position: relative;
     max-height: 340px;
     margin: 10px auto;
-    border-radius: 6px;
+    border: 6.3px solid #FA0755;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: .7rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-    
-    
+
+
 }
 
 .carousel .carousel-item,
@@ -18,16 +24,15 @@
 
 .carousel .carousel-item-visible {
     display: block;
-     animation: fadeVisibility 0.5s;
+    animation: fadeVisibility 0.5s;
 }
 
 .carousel .carousel-item img {
     width: 100%;
-    max-width: 600px;
-    border: 2px solid gray;
-    padding: 3px;
-    max-height: 380px;
-    border-radius: 6px;
+    max-height: 340px;
+    border-radius: 8px;
+    position: relative;
+
 }
 
 .carousel .carousel-actions {
@@ -65,4 +70,28 @@
     100% {
         opacity: 1;
     }
+}
+
+#carousel-item-counter p{
+    margin:  20px auto;
+    padding: 10px 15px;
+    color: gray;
+    width: 120px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 6.3px solid #FA0755;
+    border-radius: .7rem;
+
+}
+
+.slideTitle{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    opacity: 0.5;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
 }

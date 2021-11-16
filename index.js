@@ -1,6 +1,8 @@
 
 
 const slides = document.getElementsByClassName('carousel-item');
+let carouselCounterEl = document.getElementById('carousel-item-counter');
+let carouselTitle = document.getElementById('carousel-item-visible');
 let slidePosition = 0;
 const totalSlides = slides.length;
 
@@ -24,8 +26,10 @@ function moveToNextSlide() {
     }
     
     slides[slidePosition].classList.add("carousel-item-visible");
-}
+    
+    carouselCounterEl.innerHTML = `<p>You are at : ${slidePosition+1}</p>`;
 
+}
 function moveToPrevSlide() {
     hideAllSlides();
     
@@ -36,4 +40,10 @@ function moveToPrevSlide() {
     }
     
     slides[slidePosition].classList.add("carousel-item-visible");
+    
+    carouselCounterEl.innerHTML = `<p>You are at : ${slidePosition+1}</p>`;
 }
+
+let intervalNext = setInterval(moveToNextSlide, 2000)
+
+carouselCounterEl.innerHTML = `<p>You are at : 1</p>`;
