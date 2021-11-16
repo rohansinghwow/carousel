@@ -19,6 +19,7 @@
 - If else statement is used to check the postion of current DOM list item if its at index 0 then position++ is used else if its at the end then position -- is used
 - Auto sliding is also implemented
 - The position of the current slide is also shown
+- setTimeInterval is used for the auto sliding fucntion
 
 ## Acknowledgement
  The project heavily modified version of Scrimba tutorials
