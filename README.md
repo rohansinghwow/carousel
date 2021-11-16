@@ -17,6 +17,8 @@
 - Javascript CSS classList method is used to perform as carousel button trigger
 - Array of DOM node images is manipulated using for loop when the button is clicked
 - If else statement is used to check the postion of current DOM list item if its at index 0 then position++ is used else if its at the end then position -- is used
+- Auto sliding is also implemented
+- The position of the current slide is also shown
 
 ## Acknowledgement
  The project heavily modified version of Scrimba tutorials
