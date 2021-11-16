@@ -25,6 +25,7 @@
 
 - A modern carousel without any framework using Vanilla Javascript 
 - DOM is updated instant
+- Arial label is added for accessiblity
 
 
 
