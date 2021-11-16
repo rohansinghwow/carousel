@@ -6,7 +6,7 @@
 
 
 
-## _ A carousel made with Vanilla Javascript (No framework). ._
+## _ A carousel made with Vanilla Javascript (No framework)_
 
 ![Alt text](https://siasky.net/PAEKF_hkyWxpVngPsxATeSClq9DSksGcXaH16dpHKRhNsw?raw=true "Project Demo ")
 
